@@ -1,0 +1,682 @@
+a{TEXT-DECORATION: none;color:#000;}
+img{vertical-align: middle;}
+input, select, option
+{
+	FONT-SIZE: 12px; 
+	COLOR: #000; 
+	FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif;
+	
+}
+.contenido_general
+{
+	width: 100%;
+	margin: 0 auto;
+}
+
+.tabla_exterior
+{
+	width:99%;
+	border-width: 0px;
+	text-align: center;
+	margin: 0px auto;
+	padding: 0px;
+	border-spacing: 0px;
+    border-collapse: collapse;
+}
+
+.header
+{
+	background: -webkit-linear-gradient(#fff, #333); /* For Safari 5.1 to 6.0 */
+	background: -o-linear-gradient(#fff, #333); /* For Opera 11.1 to 12.0 */
+	background: -moz-linear-gradient(#fff, #333); /* For Firefox 3.6 to 15 */
+	background: linear-gradient(#fff, #333); /* Standard syntax */
+	width:100%;
+	height:40px;
+	font-size: 16px;
+	color: #ffffff !important;
+    font-family: one_trick_tony !important;
+    font-weight: bold !important;
+    text-shadow: 0.1em 0.1em 0.2em black, 0.2em 0.2em 0.2em black, 0.2em 0.2em 0.2em black, 0.2em 0.2em 0.2em black, 0.3em 0.2em 0.2em black;
+}
+
+.header div
+{
+	text-align:left;
+	vertical-align: text-top;
+	position: relative;
+    left: 60px;
+}
+
+.tabla_header 
+{
+	width:100%;
+	border-color:#000000;
+	border-width:0;	
+	border-spacing: 0px;
+    border-collapse: collapse;
+	text-align:center;
+	margin:0;
+}
+
+.tabla_header tr 
+{
+	margin: 0px auto;
+	padding: 0px;
+	border-spacing: 0px;
+}
+
+.menubar 
+{
+	height:30px;
+	width: 100%;	
+    border-style: solid;
+    border-left-width: 1px;
+	border-left-color: #000000;
+	border-right-width: 1px;
+	border-right-color: #000000;
+	border-bottom-width: 1px;
+	border-top-width: 0px;	
+	text-align:center;
+	margin:0;  
+	FONT-SIZE: 11px; 
+	FONT-FAMILY: "Tahoma"; 
+	TEXT-DECORATION: none;
+}
+
+.footer 
+{
+	height:30px;
+	width: 100%;
+	border-width:0;
+	text-align:center;
+	padding:0;
+	margin:0;	
+	border-spacing: 0px;
+    border-collapse: collapse;
+}
+
+td.footer
+{
+	border-color:#2c3b89;
+	background-color:#333;
+	color:#FFF;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:9px;
+	font-weight:bold;	
+	border-radius: 0px 0px 15px 15px;
+	width: 100%;
+}
+
+.tabla_contenido
+{
+	width:100%;
+	border-style: solid;
+    border-left-width: 1px;
+	border-left-color: #000000;
+	border-right-width: 1px;
+	border-right-color: #000000;
+	border-bottom-width: 0px;
+	border-top-width: 0px;
+	text-align: center;
+	margin: 0px auto;
+	padding:0px;
+	margin:0px;
+	border-spacing: 0px;
+    border-collapse: collapse;
+}
+
+.contenido
+{
+	width:100%;
+	text-align: center;
+	margin: 0px;
+	padding: 0px;
+	border-spacing: 0px;
+    border-collapse: collapse;
+}
+
+
+.encabezado
+{
+	width: 100%;	
+    border-style: solid;
+    border-width: 0px;	
+	padding:0;
+	border-spacing: 0px;
+    border-collapse: collapse;
+	margin:0;    
+	FONT-FAMILY: "Tahoma"; 
+	TEXT-DECORATION: none;	
+	background-color: #F1F3F5;
+	vertical-align: middle;
+}
+
+.img_encabezado
+{	
+	position: relative;
+	left: 1px;
+	width:52px;
+	height:50px;
+}
+
+.titulo_encabezado
+{
+	FONT-SIZE: 15px;
+	COLOR: #5A697E;	
+	FONT-FAMILY: verdana;
+	TEXT-DECORATION: none;	
+	FONT-WEIGHT: bold; 
+	text-align:left;
+	position: relative;
+	left: 10px;
+}
+
+.botonera_encabezado
+{
+	width:40px;
+	border-spacing: 1px;
+	border-collapse: collapse;
+}
+
+.tabla_listar 
+{
+	FONT-SIZE: 12px;
+	border: 1px solid #DDD;	
+	padding: 1px 0px 1px 0px;
+	FONT-FAMILY: "Verdana";
+	width:98%;
+	color:#fff;
+	background-color: #585858;
+	text-align: left;
+}
+
+.tabla_listar_interna 
+{
+	border: 0px;	
+	padding: 0px;
+	border-spacing: 0px;
+	width:100%;
+}
+
+.row0{background-color: #000;height:25px;}
+.row0 a{color:#fff;text-decoration : none;padding: 2px 1px 2px 1px;height:25px;}
+.row0:hover{background-color: #ccc;padding: 3px 0px 1px 2px;}
+
+.row1{background-color: #585858; height:24px;}
+.row1 a{color:#fff;text-decoration : none;padding: 2px 1px 2px 1px; height:24px;}
+.row1:hover {background-color: #ccc;padding: 3px 0px 1px 2px;}
+
+.hlink{text-decoration : none;padding: 2px 1px 2px 1px;}
+.hlink:hover{padding: 3px 0px 1px 2px;}
+
+.encabezado_col 
+{
+	FONT-SIZE: 12px;
+	color : #000033;
+	FONT-FAMILY: verdana;
+	TEXT-DECORATION: none;	
+	FONT-WEIGHT: bold; 
+	background-color:#ddd;
+	border-bottom-width: 1px;
+	border-top-width: 1px;
+}
+.encabezado_col a
+{
+	FONT-SIZE: 12px;
+	color : #000033;
+	FONT-FAMILY: verdana;
+	TEXT-DECORATION: none;	
+	FONT-WEIGHT: bold; 
+	background-color:#ddd;
+	border-bottom-width: 1px;
+	border-top-width: 1px;
+}
+
+.row_grupo 
+{
+	FONT-SIZE: 12px;
+	color : #000033;
+	text-align:left;
+	FONT-FAMILY: verdana;
+	TEXT-DECORATION: none;	
+	FONT-WEIGHT: bold; 
+	background-color:#eee;
+	border-bottom-width: 1px;
+	border-top-width: 1px;
+}
+
+.tabla_filtro
+{
+	FONT-SIZE: 12px;
+	border: 1px solid #DDD;	
+	padding: 1px 0px 1px 0px;
+	FONT-FAMILY: "Verdana";
+	width:100%;
+}
+
+.auth
+{
+	height:25px;
+	width:80%;
+	COLOR: #cccccc;
+}
+
+.barra
+{
+	width:95%; 
+	margin-left:auto; 
+	margin-right:auto; 
+	height:62px;
+}
+
+.portal
+{
+	position: absolute; 
+	overflow:hidden;
+}
+
+#contenido1
+{
+	float:center;
+}
+
+.tabla_barra 
+{
+	background-color:#fff;
+	width: 100%;	
+    border-style: solid;
+    border-width: 1px;
+	border-color: #000;	
+	text-align:center;  
+	FONT-SIZE: 11px; 
+	FONT-FAMILY: "Tahoma"; 
+	TEXT-DECORATION: none;	
+}
+
+.label
+{
+	width: 20%;
+	text-align:right;
+	FONT-SIZE: 13px; 
+	FONT-FAMILY: "Tahoma"; 
+}
+
+.texto_campo
+{
+	width: 35%;
+	text-align:left;
+}
+
+.login 
+{
+	width: 70%;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 6em;
+	border: 1px solid #cccccc;
+	background: #F1F3F5;
+	text-align: justify;
+	padding:0;
+	border-spacing: 0px;
+    border-collapse: collapse;
+}
+
+.login-text 
+{
+	FONT-SIZE: 10px;
+	FONT-FAMILY: verdana;
+	text-align: justify;
+	width: 90%;
+}
+
+.intro_sup 
+{ 
+	vertical-align:middle; 
+	TEXT-DECORATION:UNDERLINE;
+	FONT-SIZE: 11px; 
+	COLOR: #000000; 
+	FONT-FAMILY: "Tahoma"; 
+	TEXT-DECORATION: none;
+	margin: 0px auto;
+}
+
+.tabla
+{
+	FONT-SIZE: 10px; 
+	COLOR: #000;
+	FONT-FAMILY: verdana;
+	TEXT-DECORATION: none; 
+	margin: 0px;padding: 0px;
+	border: 1px solid #171717; 
+	background-color: #585858;
+	border-spacing: 0px;
+	border-collapse: collapse;
+}
+
+.boton 
+{
+	background-color: #ccc;
+	border: solid 1px #333;
+	color : #333333;
+	font-weight: bold;
+	FONT-SIZE: 12px; 
+	COLOR: #000000; 
+	FONT-FAMILY: "Verdana";
+	height:25px;
+	width:80%;
+	line-height: 25px;
+	border-radius: 5px;
+}
+
+.boton:hover 
+{
+	border: 1px solid #fff;
+	background-color: #333;
+	font-weight : bold;
+	FONT-SIZE: 11px; 
+	COLOR: #fff; 
+	FONT-FAMILY: "Verdana";
+}
+
+.panel
+{	
+	width: 90%;height: 90%;
+}
+
+.panel_header
+{	
+	width: 90%;
+	COLOR: #000;
+	FONT-FAMILY: Tahoma;
+	FONT-SIZE: 20px; 
+	TEXT-DECORATION: none; 
+	border: 1px solid #ccc;
+	background-color: #B3C4DD;
+	border-radius: 10px 10px 0px 0px;	
+	text-align:center;
+}
+
+.modulo
+{	
+	width: 100%;
+	COLOR: #000;
+	FONT-FAMILY: verdana;
+	TEXT-DECORATION: none; 
+	margin: 0px;
+	padding: 5px;
+	border: 1px solid #ccc;
+	background-color: #EFF8FB;
+	border-spacing: 5px;
+}
+
+#recursosHumanosInfo,
+#admisionesInfo,
+#pensionesInfo,
+#serviciosTecnicosInfo,
+#academicoInfo,
+#activosInfo,
+#configuracionInfo
+{ 
+	background-color: #F0F0FA;
+	background-repeat: no-repeat;
+	background-position: left;
+	border: 1px solid #BCBEC0;
+	height: 90px;
+	padding-left: 150px;
+	padding-right: 0px;
+	box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.15);
+	border-radius: 5px;
+	overflow: hidden;
+	TEXT-DECORATION: none; 
+	text-align:center;
+	vertical-align: middle;
+	position: relative;
+	FONT-SIZE: 20px;
+	FONT-FAMILY:Baskerville Old Face;
+}
+	
+#recursosHumanosInfo:hover ,
+#admisionesInfo:hover,
+#pensionesInfo:hover,
+#serviciosTecnicosInfo:hover,
+#academicoInfo:hover,
+#activosInfo:hover,
+#configuracionInfo:hover
+{
+	background-color: #B3C4DD;
+	background-repeat: no-repeat;
+	background-position: left;
+	border: 1px solid #BCBEC0;
+	box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.15);
+	border-radius: 15px;
+	overflow: hidden;
+	font-weight: bold;	vertical-align: middle;
+}
+
+#recursosHumanosInfo {background-image: url("../img/panel/recursosHumanos_180x120.png");}
+
+#admisionesInfo {background-image: url("../img/panel/admisiones_180x120.png");}
+
+#pensionesInfo {background-image: url("../img/panel/pensiones_180x120.png");}
+
+#serviciosTecnicosInfo {background-image: url("../img/panel/serviciosTecnicos_180x120.png");}
+
+#academicoInfo {background-image: url("../img/panel/academico_180x120.png");}
+
+#activosInfo {background-image: url("../img/panel/activos_180x120.png");}
+
+#configuracionInfo {background-image: url("../img/panel/configuracion.png");}
+
+#btn
+{ 
+	background-color: #F0F0FA;
+	border: 1px solid #BCBEC0;
+	height: 80px;
+	padding-left: 0px;
+	box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.15);
+	border-radius: 5px;
+	overflow: hidden;
+	TEXT-DECORATION: none; 
+	text-align:center;
+	vertical-align: middle;
+	position: relative;
+	FONT-SIZE: 12px;
+}
+	
+#btn:hover
+{ 
+	background-color: #B3C4DD;
+	border: 1px solid #BCBEC0;
+	padding-left: 0px;
+	box-shadow: 7px 7px 7px rgba(0, 0, 0, 0.15);
+	border-radius: 15px;
+	overflow: hidden;
+	TEXT-DECORATION: none; 
+	font-weight: bold;
+}
+
+#btn_sp
+{
+	height: 100px;
+	padding-left: 0px;
+}
+
+.tabla_permiso
+{
+	FONT-SIZE: 12px; 
+	COLOR: #000;
+	FONT-FAMILY: verdana;
+	TEXT-DECORATION: none;	
+	border: 1px solid #171717; 
+	background-color: #b2bfda;
+	width: 90%;
+}
+
+.tabla_generica
+{
+	FONT-SIZE: 12px; 
+	COLOR: #000;
+	FONT-FAMILY: verdana;
+	TEXT-DECORATION: none;	
+	border: 1px solid #171717; 
+	background-color: #b2bfda;
+	width: 95%;
+}
+
+.row_resaltada{height:25px;font-weight: bold;}
+.row_resaltada a{color:#000;text-decoration : none;padding: 2px 1px 2px 1px;height:25px;}
+.row_resaltada:hover{background-color: #fff;}
+
+.bola
+{
+	width: 3%;
+	background-color:#333;
+	color:#FFF;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:11px;
+	font-weight:bold;	
+	border-radius: 15px;
+	margin: 2px;
+	text-align: center;
+	display: inline-block;
+}
+
+.bola_notificacion
+{
+	width: 35px;
+	background-color:#FF0000;
+	color:#FFF;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:11px;
+	font-weight:bold;	
+	border-radius: 15px;
+	margin: 2px;
+	text-align: center;
+	display: inline-block;
+}
+
+.checkbox_rojo{color:#FF0000;}
+
+section {margin: 0px;}
+
+
+.checkbox_oculto{visibility: hidden;}
+
+.checkbox-2 {
+	width: 100px;
+	height: 20px;
+	background: #848484;
+	margin: 0 40px;
+	border-radius: 50px;
+	position: relative;
+    font-family: 'Aldrich', sans-serif; 
+}
+.checkbox-2:before {
+	content: 'Si';
+	position: absolute;
+	top: 0;
+	left: 20px;
+	color: #FFF;
+	font-size: 12px;
+    line-height: 20px;
+    text-shadow: 0 0 2px #FFFFFF;
+}
+.checkbox-2:after {
+	content: 'No';
+    color: #FFF;
+	position: absolute;
+	top: 0px;
+	right: 20px;
+	font-size: 12px;
+    line-height: 20px;
+    text-shadow: 0 0 1px #000000;
+}
+.checkbox-2 label { 
+	background: #FE2E2E;
+	display: block;
+	width: 25px;
+	height: 15px;
+	border-radius: 50px;
+	-webkit-transition: all .7s ease;
+	-moz-transition: all .7s ease;
+	-o-transition: all .7s ease;
+	-ms-transition: all .7s ease;
+	transition: all .7s ease;
+	cursor: pointer;
+	position: absolute;
+	top: 2px;
+	z-index: 1;
+	left: 13px;
+}
+.checkbox-2 input[type=checkbox]:checked + label {
+	left: 58px;
+	background:  #F1F3F5;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.login_change {border: 1px solid #cccccc;width: 550px;text-align: justify;}
+
+
+
+
+
+
+
+
+
+
+
+
+margin: 0px 0px 0px 0px;
+BODY {font-family:Tahoma,Arial,Helvetica,sans-serif;font-size: 10px;line-height: 1px;background-position: center;}
+
+
+
+.pag{page-break-before:always;}	
+
+
+table#toolbar {margin-right:10px;}
+
+table#toolbar a.toolbar {
+border:1px solid #DDDDDD;
+color:#000033;
+display:block;
+padding:2px 1px;
+text-decoration:none;
+width:55px;
+}
+table#toolbar a.toolbar:hover {background-color:#E7ECF1;border:1px solid #355cc6;color:#355cc6;padding:3px 0px 1px 2px;}
+
+table#toolbar a.toolbar:active {color:#355cc6;}
+
+
+table#toolbar a.toolbar2 {
+border:1px solid #DDDDDD;
+color:#000033;
+display:block;
+padding:2px 1px;
+text-decoration:none;
+width:35px;
+}
+table#toolbar a.toolbar2:hover {background-color:#E7ECF1;border:1px solid #355cc6;color:#355cc6;padding:3px 0px 1px 2px;}
+
+table#toolbar a.toolbar2:active {color:#355cc6;}
+
+a.toolbar_rojo {color : #ff0000;text-decoration : none;width: 100%;padding: 2px 1px 2px 1px;background-position: center;vertical-align: middle;}
+a.toolbar_rojo:hover {color : #355CC6;background-color: #E7ECF1;padding: 3px 0px 1px 2px;}
+
+a.toolbar_verde {color : #006600;text-decoration : none;width: 100%;padding: 2px 1px 2px 1px;background-position: center;vertical-align: middle;}
+a.toolbar_verde:hover {color : #355CC6;background-color: #E7ECF1;padding: 3px 0px 1px 2px;}
+
+
+

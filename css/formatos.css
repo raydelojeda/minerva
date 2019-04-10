@@ -1,0 +1,28 @@
+body
+{
+	margin:0px;
+	FONT-FAMILY: Verdana, Arial;
+	FONT-SIZE: 10px;
+}
+
+input, select, option
+{
+	FONT-SIZE: 12px; 
+	COLOR: #000; 
+	FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif;
+	border-width: 0px;
+}
+.td_top
+{vertical-align: top;}
+
+.td_bottom
+{vertical-align: bottom;}
+
+.pag{page-break-before:always;}
+
+.muestra
+{
+	padding-left: 110px;
+	padding-right: 50px;
+	overflow: hidden;
+}

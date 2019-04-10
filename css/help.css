@@ -1,0 +1,59 @@
+body {
+	font-family: verdana, arial, sans-serif;
+	font-size: 9pt;
+}
+
+a {
+	color: #000000;
+	text-decoration: none; cursor:pointer;
+}
+
+a:hover, a:active {
+	color: #355CC6;
+	text-decoration: underline;
+}
+.punt{ text-align:right; font-size: 10px; color:#355CC6;}
+.boton {border-top : solid 1px #d5d5d5;border-right : solid 1px #d5d5d5;
+	border-bottom : solid 1px #d5d5d5;border-left : solid 1px #d5d5d5;
+	color : #333333;font-weight : bold;FONT-SIZE: 10px; COLOR: #000000; FONT-FAMILY: "Verdana";}
+.boton:hover {color : #355CC6;border: 1px solid #355CC6;background-color: #E7ECF1;font-weight : bold;FONT-SIZE: 10px; COLOR: #000000; FONT-FAMILY: "Verdana";}
+	
+h1 { 
+	color: #000000;
+	text-align: center;
+	font-size: 1.2em;
+ 	border-top: 3px solid #171717;
+	border-bottom: 1px dotted #171717;
+	background-color: #dddddd;
+	padding: 0 0 2px 5px;
+}
+h2 { 
+	color: #81A332;    
+	font-size: 1.3em;
+	margin: 1ex 0; 
+}
+
+h3 { 
+	color: #000000;
+	text-align: center;
+	font-size: 1.2em;
+ 	border-top: 1px dotted #171717;
+	border-bottom: 3px solid #171717;
+	background-color: #dddddd;
+	padding: 0 0 2px 5px;
+}
+
+h3 a:hover, .h3 a:active {
+	color: #9BB65F;
+	text-decoration: none;
+}
+
+pre {
+	text-align: left;
+    border-left: 10px solid #D5DCE7;
+	border-right: 1px solid #DDDDDD;
+	border-top: 1px solid #DDDDDD;
+	border-bottom: 1px solid #DDDDDD;
+	background-color: #F6F6F6;
+	padding: 7px;
+}

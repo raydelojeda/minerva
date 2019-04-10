@@ -1,0 +1,129 @@
+body{FONT-FAMILY: "Verdana";FONT-SIZE: 13px;}
+
+.tabla_contenido
+{
+	width:90%;
+    border-width: 0px;
+	text-align: center;
+	margin: 0px auto;
+	padding:0px;
+	margin:0px;
+	border-spacing: 0px;
+    border-collapse: collapse;
+}
+
+.contenido
+{
+	width:100%;
+	text-align: center;
+	margin: 0px;
+	padding: 0px;
+	border-spacing: 0px;
+    border-collapse: collapse;
+}
+
+.titulo
+{
+	width:90%;
+	text-align: center;
+	margin: 0px;
+	padding: 0px;
+	border-spacing: 0px;
+    border-collapse: collapse;FONT-SIZE: 26px;
+}
+
+hr {border: 0; height: 4px; border-top: 1px dashed black; border-bottom: 1px dashed black;}
+
+.tabla_listar 
+{
+	FONT-SIZE: 12px;
+	border: 1px solid #DDD;	
+	padding: 1px 0px 1px 0px;
+	FONT-FAMILY: "Verdana";
+	width:98%;
+	text-align: left;
+}
+
+.row0{color:#000;background-color: #F2F2F2;height:25px;}
+.row0 a{color:#000;text-decoration : none;padding: 2px 1px 2px 1px;height:25px;}
+.row0:hover{background-color: #fff;padding: 3px 0px 1px 2px;}
+
+.row1{color:#000;background-color: #fff; height:24px;}
+.row1 a{color:#000;text-decoration : none;padding: 2px 1px 2px 1px; height:24px;}
+.row1:hover {background-color: #ddd;padding: 3px 0px 1px 2px;}
+
+
+
+.hlink{text-decoration : none;padding: 2px 1px 2px 1px;}
+.hlink:hover{padding: 3px 0px 1px 2px;}
+
+.encabezado_col 
+{
+	FONT-SIZE: 12px;
+	color : #000;
+	FONT-FAMILY: verdana;
+	TEXT-DECORATION: none;	
+	FONT-WEIGHT: bold; 
+	background-color:#A4A4A4;
+	border-bottom-width: 1px;
+	border-top-width: 1px;
+}
+
+.bola, .bola_cri, .bola_total, .bola_verde, .bola_roja, .bola_compromiso, .bola_resultado
+{
+	width: 25px;
+	background-color:#ccc;
+	color:#000;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:11px;
+	font-weight:bold;	
+	border-radius: 15px;
+	margin: 2px;
+	text-align: center;
+	display: inline-block;
+	height:15px;
+	vertical-align: middle;
+}
+
+.bola_cri
+{
+	width: 40px;
+}
+
+.bola_total
+{
+	width: 275px;
+	height:18px;
+}
+
+.bola_verde
+{
+	width: 175px;
+	background-color:#11750F;
+	font-size:15px;
+	height:20px;
+}
+
+.bola_roja
+{
+	width: 165px;
+	background-color:#F78181;
+	font-size:15px;
+	height:20px;
+}
+
+.bola_compromiso
+{
+	display: table-cell;
+	width: 100%;
+	height:50px;
+	background-color:#eee;
+	font-size:15px;
+	text-align: justify;
+	color:#000;
+}
+
+.bola_resultado
+{
+	width: 80px;
+}

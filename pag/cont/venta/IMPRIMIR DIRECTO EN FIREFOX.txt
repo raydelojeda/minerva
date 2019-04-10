@@ -1,0 +1,39 @@
+-----------------------------------PARA IMPRMIR EL FORMATO_1 (BAR) EN FIREFOX-----------------------------------
+CONFIGURAR PAGINA
+MARGEN IZQ: 0
+MARGEN DER: 0
+MARGEN TOP: 0
+MARGEN BOT: 0
+
+FORMATO DE HOJA: A4
+AJUSTAR AL ANCHO DE HOJA: 63mm X Receipt
+-----------------------------------PARA IMPRMIR EL FORMATO_1 (BAR) EN FIREFOX-----------------------------------
+
+-----------------------------------PARA IMPRMIR EL FORMATO_2 (PENSIONES) EN FIREFOX-----------------------------------
+CONFIGURAR PAGINA
+MARGEN IZQ: 5.0
+MARGEN DER: 5.0
+MARGEN TOP: 0.5
+MARGEN BOT: 0.5
+
+FORMATO DE HOJA: A4
+-----------------------------------PARA IMPRMIR EL FORMATO_2 (PENSIONES) EN FIREFOX-----------------------------------
+
+window.print();
+Este comando nos mostrara el cuadro de dialogo para seleccionar la impresora…
+
+
+El primer punto es quitar este dialogo de seleccion de impresora, en firefox es tan sencillo como:
+
+Abrir una nueva pestaña
+Escribir en ella –> about:config
+Hacer click en el boton
+Escribir –> print.(no se olviden del punto)
+Verificar si existe el valor: print.always_print_silent 
+Si existe este valor hay que cambiarlo por TRUE (haciendo doble click se le cambia de valor)
+No existe este valor hay que crearlo:
+Click derecho en alguno de los valores
+Seleccionar Nuevo –> Logico
+Asignarle el nombre:  print.always_print_silent
+Asignarle el valor de TRUE
+Hecho esto el dialogo de seleccion desaparece, adicionalmente pueden ocultar el cuadro de dialogo de “Progreso de Impresion” con el valor print.show_print_progress estableciendolo a false
